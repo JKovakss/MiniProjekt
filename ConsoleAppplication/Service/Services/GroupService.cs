@@ -1,0 +1,44 @@
+﻿using Domain.Models;
+using Repository.Repositories;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Service.Services
+{
+    public class GroupService
+    {
+        private GroupRepository _groupRepository;
+        public int count;
+
+        public GroupService()
+        {
+            _groupRepository = new GroupRepository();
+        }
+
+        public Group Create(Group group)
+        {
+            group.Id = count;
+
+            _groupRepository.Create(group);
+            count++;
+
+            return group;
+        }
+
+        public void Delete(int id)
+        {
+            _groupRepository.Delete(id);
+        }
+
+        public Group Update(int id, Group group)
+        {
+            Group existData = _groupRepository.Get(m => m.Id == id);
+            //existData.Id = id;
+            _groupRepository.Update(id, group);
+            return existData;
+        }
+    }
+}
