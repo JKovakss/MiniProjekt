@@ -4,12 +4,12 @@
     "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj": {
+    "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj",
+        "projectName": "ConsoleApplication.Domain",
+        "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -69,12 +69,12 @@
         }
       }
     },
-    "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj": {
+    "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\ConsoleApplication.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj",
-        "projectName": "Repository",
-        "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\ConsoleApplication.Repository.csproj",
+        "projectName": "ConsoleApplication.Repository",
+        "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\ConsoleApplication.Repository.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\obj\\",
         "projectStyle": "PackageReference",
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj"
+              "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj"
               }
             }
           }
@@ -166,11 +166,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj"
+              "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj"
               },
-              "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj"
+              "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\ConsoleApplication.Repository.csproj": {
+                "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\ConsoleApplication.Repository.csproj"
               }
             }
           }

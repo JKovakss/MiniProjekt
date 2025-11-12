@@ -1,0 +1,12 @@
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\bin\Debug\net8.0\ConsoleApplication.Domain.deps.json
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\bin\Debug\net8.0\ConsoleApplication.Domain.dll
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\bin\Debug\net8.0\ConsoleApplication.Domain.pdb
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\obj\Debug\net8.0\ConsoleApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\obj\Debug\net8.0\ConsoleApplication.Domain.AssemblyInfoInputs.cache
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\obj\Debug\net8.0\ConsoleApplication.Domain.AssemblyInfo.cs
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\obj\Debug\net8.0\ConsoleApplication.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\obj\Debug\net8.0\ConsoleApplication.Domain.sourcelink.json
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\obj\Debug\net8.0\ConsoleApplication.Domain.dll
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\obj\Debug\net8.0\refint\ConsoleApplication.Domain.dll
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\obj\Debug\net8.0\ConsoleApplication.Domain.pdb
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Domain\obj\Debug\net8.0\ref\ConsoleApplication.Domain.dll

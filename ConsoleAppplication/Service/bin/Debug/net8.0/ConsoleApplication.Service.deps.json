@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleApplication.Service/1.0.0": {
+        "dependencies": {
+          "ConsoleApplication.Domain": "1.0.0",
+          "ConsoleApplication.Repository": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApplication.Service.dll": {}
+        }
+      },
+      "ConsoleApplication.Domain/1.0.0": {
+        "runtime": {
+          "ConsoleApplication.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ConsoleApplication.Repository/1.0.0": {
+        "dependencies": {
+          "ConsoleApplication.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApplication.Repository.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApplication.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleApplication.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleApplication.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

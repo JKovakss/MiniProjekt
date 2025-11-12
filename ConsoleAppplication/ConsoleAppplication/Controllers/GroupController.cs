@@ -1,141 +1,384 @@
-﻿using Service.Services;
-using Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ConsoleApplication.Domain.Entities;   
+using ConsoleApplication.Presentation.Helpers;
+using ConsoleApplication.Service.Services.Implimentations;
 
-namespace ConsoleAppplication.Controllers
+namespace ConsoleApplication.Presentation.Controllers
 {
     public class GroupController
     {
-        GroupService groupService = new();
-        public void Create()
+        GroupService groupService = new GroupService();
+
+        public void CreateMethod(int selectTrueOption)
         {
-            Console.Write("Name:");
-            string name = Console.ReadLine();
+        FalseGroup:
+            Helper.ConsoleText(ConsoleColor.Green, "Add a group name:");
+            string groupName = Console.ReadLine().Trim().ToLower();
 
-            Console.Write("Teacher:");
-            string teacher = Console.ReadLine();
-
-            Console.Write("Room:");
-        Room: string room = Console.ReadLine();
-            int roomNumber;
-            bool isRoomNumber = int.TryParse(room, out roomNumber);
-
-            if (isRoomNumber)
+            if (string.IsNullOrWhiteSpace(groupName) || int.TryParse(groupName, out selectTrueOption))
             {
-                Group group = new()
+                Helper.ConsoleText(ConsoleColor.Red, "Group name cannot be empty or numeric!");
+                goto FalseGroup;
+            }
+
+            List<Group> groups = groupService.GetAll();
+
+            foreach (Group group2 in groups)
+            {
+                if (group2.Name == groupName)
                 {
-                    Name = name,
-                    Teacher = teacher,
+                    Helper.ConsoleText(ConsoleColor.Red, $"There is already group with this name: '{groupName}'!");
+                    goto FalseGroup;
+                }
+            }
+
+        FalseName:
+            Helper.ConsoleText(ConsoleColor.Green, "Add a group teacher:");
+            string teacherName = Console.ReadLine().Trim();
+
+            if (string.IsNullOrWhiteSpace(teacherName) ||
+                teacherName.Any(char.IsDigit) ||
+                teacherName.Contains(" "))
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "Teacher name cannot be empty, contain numbers, or have spaces!");
+                goto FalseName;
+            }
+
+            teacherName = Helper.Capitalize(teacherName);
+
+        FalseClass:
+            Helper.ConsoleText(ConsoleColor.Green, "Add a room number:");
+            string roomName = Console.ReadLine().Trim();
+            int roomNumber;
+
+            if (!int.TryParse(roomName, out roomNumber))
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "Select a correct room number!");
+                goto FalseClass;
+            }
+
+            Group group = new Group
+            {
+                Name = groupName,
+                Teacher = teacherName,
+                Room = roomNumber
+            };
+
+            groupService.Create(group);
+            Helper.ConsoleText(ConsoleColor.Green, "Group creating...");
+            Thread.Sleep(1000);
+            Helper.ConsoleText(ConsoleColor.Green, "Group created successfully");
+        }
+
+        public void UpdateMethod(int selectTrueOption)
+        {
+            List<Group> groups = groupService.GetAll();
+
+            if (groups.Count == 0)
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "There is no group to update!");
+                return;
+            }
+
+        FalseUpdate:
+            Helper.ConsoleText(ConsoleColor.Green, "Enter the ID of the group you want to update:");
+            string idStr = Console.ReadLine();
+
+            if (int.TryParse(idStr, out int idInt))
+            {
+                var findGroup = groupService.GetById(idInt);
+                if (findGroup == null)
+                {
+                    Helper.ConsoleText(ConsoleColor.Red, "No group found with that ID!");
+                    goto FalseUpdate;
+                }
+
+            FalseGroup:
+                Helper.ConsoleText(ConsoleColor.Green, "Add a new group name:");
+                string groupName = Console.ReadLine().Trim().ToLower();
+
+                if (string.IsNullOrWhiteSpace(groupName) || int.TryParse(groupName, out selectTrueOption))
+                {
+                    Helper.ConsoleText(ConsoleColor.Red, "Group name cannot be empty or numeric!");
+                    goto FalseGroup;
+                }
+
+            FalseName:
+                Helper.ConsoleText(ConsoleColor.Green, "Add a group teacher:");
+                string teacherName = Console.ReadLine().Trim();
+
+                if (string.IsNullOrWhiteSpace(teacherName) ||
+                    teacherName.Any(char.IsDigit) ||
+                    teacherName.Contains(" "))
+                {
+                    Helper.ConsoleText(ConsoleColor.Red, "Teacher name cannot be empty, contain numbers, or have spaces!");
+                    goto FalseName;
+                }
+
+                teacherName = Helper.Capitalize(teacherName);
+
+            FalseClass:
+                Helper.ConsoleText(ConsoleColor.Green, "Add a room number:");
+                string roomName = Console.ReadLine().Trim();
+                int roomNumber;
+
+                if (string.IsNullOrWhiteSpace(roomName))
+                {
+                    roomNumber = findGroup.Room;
+                }
+                else if (!int.TryParse(roomName, out roomNumber))
+                {
+                    Helper.ConsoleText(ConsoleColor.Red, "Select a correct room number!");
+                    goto FalseClass;
+                }
+
+                Helper.ConsoleText(ConsoleColor.Green, "Updating the group...");
+                Thread.Sleep(1000);
+
+                Group updatedGroup = new Group
+                {
+                    Name = groupName,
+                    Teacher = teacherName,
                     Room = roomNumber
                 };
 
-                var newGroup = groupService.Create(group);
-                Console.WriteLine( $"Id: {newGroup.Id} ,Name: {newGroup.Name}, Teacher: {newGroup.Teacher}, Room: {newGroup.Room}");
+                groupService.Update(idInt, updatedGroup);
+                Helper.ConsoleText(ConsoleColor.DarkCyan, "Group updated successfully");
+                Console.WriteLine("");
+                Helper.ConsoleText(ConsoleColor.DarkCyan,
+                    $"Group ID: {idInt}\nGroup name: {updatedGroup.Name}\nTeacher: {updatedGroup.Teacher}\nGroup room: {updatedGroup.Room}\n");
             }
             else
             {
-                Console.WriteLine( "Seat count is not correct type!");
-                goto Room;
+                Helper.ConsoleText(ConsoleColor.Red, "Incorrect ID format!");
+                goto FalseUpdate;
             }
         }
 
-        public void Update()
+        public void DeleteMethod()
         {
-            Console.WriteLine("Id:");
-        GroupId: string groupId = Console.ReadLine();
-            int groupIdNumber;
-            bool islibraryIdNumber = int.TryParse(groupId, out groupIdNumber);
+            List<Group> groups = groupService.GetAll();
 
-            if (islibraryIdNumber)
+            if (groups.Count == 0)
             {
-                Group library = groupService.GetById(groupIdNumber);
+                Helper.ConsoleText(ConsoleColor.Red, "There is no group to delete!");
+                return;
+            }
 
-                if (library != null)
+        FalseDelete:
+            Helper.ConsoleText(ConsoleColor.Green, "Enter the ID of the group you want to delete");
+            string idStr = Console.ReadLine();
+
+            if (int.TryParse(idStr, out int idInt))
+            {
+                Helper.ConsoleText(ConsoleColor.Cyan, "Finding the data...");
+                Thread.Sleep(1000);
+
+                Group group = groupService.GetById(idInt);
+
+                if (group == null)
                 {
-                    Console.WriteLine("Name:");
-                    string groupName = Console.ReadLine();
-
-                    Console.WriteLine("Teacher:");
-                    string teacherName = Console.ReadLine();
-
-                    Console.WriteLine("Room:");
-                uRoomNumer: string? uRoomNumber = Console.ReadLine();
-
-
-
-                    Group uGroup = new();
-                    uGroup.Name = groupName;
-
-                    if (!string.IsNullOrWhiteSpace(uRoomNumber))
-                    {
-                        uGroup.Room = Convert.ToInt32(uRoomNumber);
-                    }
-
-                    Group updateGroup = groupService.Update(groupIdNumber, uGroup);
-
-                    Console.WriteLine($"Id: {updateGroup.Id} ,Name: {updateGroup.Name}, Teacher: {updateGroup.Teacher}, Room: {updateGroup.Room}");
-
+                    Helper.ConsoleText(ConsoleColor.Red, "No data found with that ID!");
+                    return;
                 }
-                else
+
+                groupService.Delete(idInt);
+                Helper.ConsoleText(ConsoleColor.DarkCyan, "Group deleted successfully");
+            }
+            else
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "Incorrect search type!");
+                goto FalseDelete;
+            }
+        }
+
+        public void GetByIdMethod()
+        {
+            List<Group> groups = groupService.GetAll();
+
+            if (groups.Count == 0)
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "There is no group to find!");
+                return;
+            }
+
+        FalseId:
+            Helper.ConsoleText(ConsoleColor.Green, "Enter the ID of the group");
+            string groupId = Console.ReadLine();
+            int id;
+
+            bool isgroupId = int.TryParse(groupId, out id);
+
+            if (isgroupId)
+            {
+                Group group = groupService.GetById(id);
+                Helper.ConsoleText(ConsoleColor.Cyan, "Finding the data...");
+                Thread.Sleep(1000);
+                Console.WriteLine("");
+
+                if (group == null)
                 {
-                    Console.WriteLine("Data not found!");
-                    goto GroupId;
+                    Helper.ConsoleText(ConsoleColor.Red, "There is no Group found!");
+                    return;
+                }
+
+                Helper.ConsoleText(ConsoleColor.DarkCyan,
+                    $"Group ID: {group.Id}\nGroup name: {group.Name}\nTeacher: {group.Teacher}\nGroup room: {group.Room}");
+                Console.WriteLine("");
+            }
+            else
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "Incorrect ID type!");
+                goto FalseId;
+            }
+        }
+
+        public void GetAllMethod()
+        {
+            List<Group> groups = groupService.GetAll();
+            Helper.ConsoleText(ConsoleColor.Cyan, "Finding the datas...");
+            Console.WriteLine("");
+            Thread.Sleep(1000);
+
+            if (groups != null && groups.Count > 0)
+            {
+                foreach (Group group in groups)
+                {
+                    Helper.ConsoleText(ConsoleColor.DarkCyan,
+                        $"Group ID: {group.Id}\nGroup name: {group.Name}\nTeacher: {group.Teacher}\nGroup room: {group.Room}\n");
                 }
             }
             else
             {
-                Console.WriteLine("Id is not correct type!");
-                goto GroupId;
+                Helper.ConsoleText(ConsoleColor.Red, "There is no data found!");
+            }
+        }
+
+        public void GetAllByTeacherMethod()
+        {
+            List<Group> groups1 = groupService.GetAll();
+
+            if (groups1.Count == 0)
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "There is no group to find!");
+                return;
             }
 
+        FalseTeacher:
+            Helper.ConsoleText(ConsoleColor.Green, "Enter the teacher name");
+            string teacherSearch = Console.ReadLine().Trim().ToLower();
+            int teacherSearchInt;
 
-        }
+            bool isTeacherSearchInt = int.TryParse(teacherSearch, out teacherSearchInt);
 
-        public void Delete()
-        {
-            groupService.Delete(Convert.ToInt32(Console.ReadLine()));
-        }
-
-        public void GetById()
-        {
-            Console.WriteLine("Id:");
-        Id: string id = Console.ReadLine();
-            int idNumber;
-            bool isIdNumber = int.TryParse(id, out idNumber);
-
-            if (isIdNumber)
+            if (!isTeacherSearchInt)
             {
-                Group existData = groupService.GetById(idNumber);
+                List<Group> groups = groupService.SearchByTeacher(Helper.Capitalize(teacherSearch));
+                Helper.ConsoleText(ConsoleColor.Cyan, "Finding the data...");
+                Console.WriteLine("");
+                Thread.Sleep(1000);
 
-                if (existData != null)
+                if (groups.Count == 0)
                 {
-                    Console.WriteLine($"Id: {existData.Id} ,Name: {existData.Name}, Teacher: {existData.Teacher}, Room: {existData.Room}");
+                    Helper.ConsoleText(ConsoleColor.Red, "There is no data found!");
+                    return;
                 }
-                else
+
+                foreach (Group group in groups)
                 {
-                    Console.WriteLine("Data not found!");
-                    goto Id;
+                    Helper.ConsoleText(ConsoleColor.DarkCyan,
+                        $"Group ID: {group.Id}\nGroup name: {group.Name}\nTeacher: {group.Teacher}\nGroup room: {group.Room}");
+                    Console.WriteLine("");
                 }
             }
             else
             {
-                Console.WriteLine("Id is not correct type!");
-                goto Id;
+                Helper.ConsoleText(ConsoleColor.Red, "Incorrect search type!");
+                goto FalseTeacher;
+            }
+        }
+
+        public void GetAllByRoomMethod()
+        {
+            List<Group> groups1 = groupService.GetAll();
+
+            if (groups1.Count == 0)
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "There is no group to find!");
+                return;
             }
 
+        FalseRoom:
+            Helper.ConsoleText(ConsoleColor.Green, "Enter the room number");
+            string roomSearch = Console.ReadLine();
+            int roomSearchInt;
+            bool isRoomSearchInt = int.TryParse(roomSearch, out roomSearchInt);
+            List<Group> groups = groupService.SearchByRoom(roomSearchInt);
 
-        }
-        public void GetAll()
-        {
-            List<Group> libraries = groupService.GetAll();
-
-            foreach (var item in libraries)
+            if (isRoomSearchInt)
             {
-                Console.WriteLine($"Id: {item.Id} ,Name: {item.Name}, Teacher: {item.Teacher}, Room: {item.Room}");
+                Helper.ConsoleText(ConsoleColor.Cyan, "Finding the data...");
+                Thread.Sleep(1000);
+
+                if (groups.Count == 0)
+                {
+                    Helper.ConsoleText(ConsoleColor.Red, "There is no data found!");
+                    return;
+                }
+
+                foreach (Group group in groups)
+                {
+                    Helper.ConsoleText(ConsoleColor.DarkCyan,
+                        $"Group ID: {group.Id}\nGroup name: {group.Name}\nTeacher: {group.Teacher}\nGroup room: {group.Room}");
+                    Console.WriteLine("");
+                }
+            }
+            else
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "Incorrect search type!");
+                goto FalseRoom;
+            }
+        }
+
+        public void GetGroupByName()
+        {
+            List<Group> groups1 = groupService.GetAll();
+
+            if (groups1.Count == 0)
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "There is no group to find!");
+                return;
+            }
+
+        FalseName:
+            Helper.ConsoleText(ConsoleColor.Green, "Enter the group name");
+            string groupSearch = Console.ReadLine().Trim().ToLower();
+            int groupSearchInt;
+            bool isGroupSearchInt = int.TryParse(groupSearch, out groupSearchInt);
+
+            if (!isGroupSearchInt)
+            {
+                List<Group> groups = groupService.SearchByName(groupSearch);
+                Helper.ConsoleText(ConsoleColor.Cyan, "Finding the data...");
+                Thread.Sleep(1000);
+
+                if (groups.Count == 0)
+                {
+                    Helper.ConsoleText(ConsoleColor.Red, "There is no data found!");
+                    return;
+                }
+
+                foreach (Group group in groups)
+                {
+                    Console.WriteLine("");
+                    Helper.ConsoleText(ConsoleColor.DarkCyan,
+                        $"Group ID: {group.Id}\nGroup name: {group.Name}\nTeacher: {group.Teacher}\nGroup room: {group.Room}");
+                    Console.WriteLine("");
+                }
+            }
+            else
+            {
+                Helper.ConsoleText(ConsoleColor.Red, "Incorrect search type!");
+                goto FalseName;
             }
         }
     }

@@ -1,0 +1,16 @@
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\bin\Debug\net8.0\ConsoleApplication.Repository.deps.json
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\bin\Debug\net8.0\ConsoleApplication.Repository.dll
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\bin\Debug\net8.0\ConsoleApplication.Repository.pdb
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\bin\Debug\net8.0\ConsoleApplication.Domain.dll
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\bin\Debug\net8.0\ConsoleApplication.Domain.pdb
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\ConsoleApplication.Repository.csproj.AssemblyReference.cache
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\ConsoleApplication.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\ConsoleApplication.Repository.AssemblyInfoInputs.cache
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\ConsoleApplication.Repository.AssemblyInfo.cs
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\ConsoleApplication.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\ConsoleApplication.Repository.sourcelink.json
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\ConsoleA.D6122599.Up2Date
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\ConsoleApplication.Repository.dll
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\refint\ConsoleApplication.Repository.dll
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\ConsoleApplication.Repository.pdb
+C:\Users\Abbas\OneDrive\Masaüstü\ZED\ConsoleAppplication\Repository\obj\Debug\net8.0\ref\ConsoleApplication.Repository.dll

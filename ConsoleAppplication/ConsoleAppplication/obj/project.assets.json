@@ -2,67 +2,65 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Domain/1.0.0": {
+      "ConsoleApplication.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/ConsoleApplication.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/ConsoleApplication.Domain.dll": {}
         }
       },
-      "Repository/1.0.0": {
+      "ConsoleApplication.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Domain": "1.0.0"
+          "ConsoleApplication.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Repository.dll": {}
+          "bin/placeholder/ConsoleApplication.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Repository.dll": {}
+          "bin/placeholder/ConsoleApplication.Repository.dll": {}
         }
       },
-      "Service/1.0.0": {
+      "ConsoleApplication.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Domain": "1.0.0",
-          "Repository": "1.0.0"
+          "ConsoleApplication.Domain": "1.0.0",
+          "ConsoleApplication.Repository": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Service.dll": {}
+          "bin/placeholder/ConsoleApplication.Service.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Service.dll": {}
+          "bin/placeholder/ConsoleApplication.Service.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Domain/1.0.0": {
+    "ConsoleApplication.Domain/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../Domain/ConsoleApplication.Domain.csproj",
+      "msbuildProject": "../Domain/ConsoleApplication.Domain.csproj"
     },
-    "Repository/1.0.0": {
+    "ConsoleApplication.Repository/1.0.0": {
       "type": "project",
-      "path": "../Repository/Repository.csproj",
-      "msbuildProject": "../Repository/Repository.csproj"
+      "path": "../Repository/ConsoleApplication.Repository.csproj",
+      "msbuildProject": "../Repository/ConsoleApplication.Repository.csproj"
     },
-    "Service/1.0.0": {
+    "ConsoleApplication.Service/1.0.0": {
       "type": "project",
-      "path": "../Service/Service.csproj",
-      "msbuildProject": "../Service/Service.csproj"
+      "path": "../Service/ConsoleApplication.Service.csproj",
+      "msbuildProject": "../Service/ConsoleApplication.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Domain >= 1.0.0",
-      "Repository >= 1.0.0",
-      "Service >= 1.0.0"
+      "ConsoleApplication.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -72,9 +70,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\ConsoleAppplication\\ConsoleAppplication.csproj",
-      "projectName": "ConsoleAppplication",
-      "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\ConsoleAppplication\\ConsoleAppplication.csproj",
+      "projectUniqueName": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\ConsoleAppplication\\ConsoleApplication.csproj",
+      "projectName": "ConsoleApplication",
+      "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\ConsoleAppplication\\ConsoleApplication.csproj",
       "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\ConsoleAppplication\\obj\\",
       "projectStyle": "PackageReference",
@@ -97,14 +95,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj"
-            },
-            "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj"
-            },
-            "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Service\\Service.csproj"
+            "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Service\\ConsoleApplication.Service.csproj": {
+              "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Service\\ConsoleApplication.Service.csproj"
             }
           }
         }

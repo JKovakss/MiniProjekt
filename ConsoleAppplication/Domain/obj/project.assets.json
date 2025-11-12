@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj",
+      "projectName": "ConsoleApplication.Domain",
+      "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj",
       "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\obj\\",
       "projectStyle": "PackageReference",

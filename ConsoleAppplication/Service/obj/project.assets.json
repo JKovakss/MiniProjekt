@@ -2,47 +2,47 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Domain/1.0.0": {
+      "ConsoleApplication.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/ConsoleApplication.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/ConsoleApplication.Domain.dll": {}
         }
       },
-      "Repository/1.0.0": {
+      "ConsoleApplication.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Domain": "1.0.0"
+          "ConsoleApplication.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Repository.dll": {}
+          "bin/placeholder/ConsoleApplication.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Repository.dll": {}
+          "bin/placeholder/ConsoleApplication.Repository.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Domain/1.0.0": {
+    "ConsoleApplication.Domain/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../Domain/ConsoleApplication.Domain.csproj",
+      "msbuildProject": "../Domain/ConsoleApplication.Domain.csproj"
     },
-    "Repository/1.0.0": {
+    "ConsoleApplication.Repository/1.0.0": {
       "type": "project",
-      "path": "../Repository/Repository.csproj",
-      "msbuildProject": "../Repository/Repository.csproj"
+      "path": "../Repository/ConsoleApplication.Repository.csproj",
+      "msbuildProject": "../Repository/ConsoleApplication.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Domain >= 1.0.0",
-      "Repository >= 1.0.0"
+      "ConsoleApplication.Domain >= 1.0.0",
+      "ConsoleApplication.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -52,9 +52,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Service\\Service.csproj",
-      "projectName": "Service",
-      "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Service\\ConsoleApplication.Service.csproj",
+      "projectName": "ConsoleApplication.Service",
+      "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Service\\ConsoleApplication.Service.csproj",
       "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Service\\obj\\",
       "projectStyle": "PackageReference",
@@ -77,11 +77,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj"
+            "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj": {
+              "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Domain\\ConsoleApplication.Domain.csproj"
             },
-            "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj"
+            "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\ConsoleApplication.Repository.csproj": {
+              "projectPath": "C:\\Users\\Abbas\\OneDrive\\Masaüstü\\ZED\\ConsoleAppplication\\Repository\\ConsoleApplication.Repository.csproj"
             }
           }
         }
