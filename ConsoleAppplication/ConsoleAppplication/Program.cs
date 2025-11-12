@@ -8,6 +8,7 @@ namespace ConsoleAppplication
         static void Main(string[] args)
         {
             ShowMenu();
+            StudentController studentController = new StudentController();
             GroupController groupController = new GroupController();
 
             while (true)
@@ -37,6 +38,48 @@ namespace ConsoleAppplication
                             groupController.GetAll();
                             break;
                         case (int)GroupMethod.Exit:
+                            Environment.Exit(0);
+                            break;
+                        default:
+                            Console.WriteLine("Select option is not correct!");
+                            goto Input;
+
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Input is not correct type!");
+                    goto Input;
+                }
+            }
+
+            while (true)
+            {
+            Input: string input = Console.ReadLine();
+                int number;
+
+                bool isConvert = int.TryParse(input, out number);
+
+                if (isConvert)
+                {
+                    switch (number)
+                    {
+                        case (int)StudentMethod.Create:
+                            studentController.Create();
+                            break;
+                        case (int)StudentMethod.Update:
+                            studentController.Update();
+                            break;
+                        case (int)StudentMethod.Delete:
+                            studentController.Delete();
+                            break;
+                        case (int)StudentMethod.GetById:
+                            studentController.GetById();
+                            break;
+                        case (int)StudentMethod.GetAll:
+                            studentController.GetAll();
+                            break;
+                        case (int)StudentMethod.Exit:
                             Environment.Exit(0);
                             break;
                         default:

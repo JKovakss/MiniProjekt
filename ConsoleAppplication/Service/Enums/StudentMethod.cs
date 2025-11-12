@@ -8,10 +8,10 @@ namespace Service.Enums
 {
     public enum StudentMethod
     {
-        Create = 1,
-        Update = 2,
-        Delete = 3,
-        GetById = 4,
+        Create = 6,
+        Update = 7,
+        Delete = 8,
+        GetById = 9,
         Exit = 0
     }
 }
