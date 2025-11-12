@@ -13,6 +13,7 @@ namespace Service.Services.Interface
         Group Update(int id, Group data);
         void Delete(int id);
         Group GetById(int id);
+        List<Group> GetAll();
 
     }
 }

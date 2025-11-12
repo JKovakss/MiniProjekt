@@ -11,6 +11,9 @@ namespace Service.Enums
         Create = 1,
         Update = 2,
         Delete = 3,
-        GetById = 4
+        GetById = 4,
+        GetAll = 5,
+        Exit = 0
+
     }
 }

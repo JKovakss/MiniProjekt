@@ -126,6 +126,17 @@ namespace ConsoleAppplication.Controllers
                 Console.WriteLine("Id is not correct type!");
                 goto Id;
             }
+
+
+        }
+        public void GetAll()
+        {
+            List<Group> libraries = groupService.GetAll();
+
+            foreach (var item in libraries)
+            {
+                Console.WriteLine($"Id: {item.Id} ,Name: {item.Name}, Teacher: {item.Teacher}, Room: {item.Room}");
+            }
         }
     }
 }

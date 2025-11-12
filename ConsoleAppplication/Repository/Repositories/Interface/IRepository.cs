@@ -13,6 +13,7 @@ namespace Repository.Repositories.Interface
         void Update(int id, T data);
         void Delete(int id);
         T Get(Predicate<T>? predicate);
+        List<T> GetAll(Predicate<T>? predicate);
 
 
     }

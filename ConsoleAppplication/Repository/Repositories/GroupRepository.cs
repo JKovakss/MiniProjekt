@@ -52,5 +52,21 @@ namespace Repository.Repositories
             Group existData = AppDbContext<Group>.datas.Find(predicate);
             return existData;
         }
+
+        public List<Group> GetAll(Predicate<Group>? predicate = null)
+        {
+            List<Group> existDatas;
+
+            if (predicate != null)
+            {
+                existDatas = AppDbContext<Group>.datas.FindAll(predicate);
+            }
+            else
+            {
+                existDatas = AppDbContext<Group>.datas;
+            }
+
+            return existDatas;
+        }
     }
 }

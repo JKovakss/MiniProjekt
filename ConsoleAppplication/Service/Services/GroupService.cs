@@ -48,5 +48,11 @@ namespace Service.Services
             Group existData = _groupRepository.Get(m => m.Id == id);
             return existData;
         }
+
+        public List<Group> GetAll()
+        {
+            List<Group> libraries = _groupRepository.GetAll();
+            return libraries;
+        }
     }
 }

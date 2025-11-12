@@ -33,6 +33,12 @@ namespace ConsoleAppplication
                         case (int)GroupMethod.GetById:
                             groupController.GetById();
                             break;
+                        case (int)GroupMethod.GetAll:
+                            groupController.GetAll();
+                            break;
+                        case (int)GroupMethod.Exit:
+                            Environment.Exit(0);
+                            break;
                         default:
                             Console.WriteLine("Select option is not correct!");
                             goto Input;
@@ -54,6 +60,8 @@ namespace ConsoleAppplication
             Console.WriteLine("2. Update Group");
             Console.WriteLine("3. Delete Group");
             Console.WriteLine("4. GetById Group");
+            Console.WriteLine("5. GetAll Groups");
+            Console.WriteLine("0. Exit");
         }
     }
 }
