@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\service\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|solutionrelative:service\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\service\\services\\interface\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F323708D-5F70-4FA7-8344-CB7ED1BE3ABF}|ConsoleAppplication\\ConsoleAppplication.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\consoleappplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F323708D-5F70-4FA7-8344-CB7ED1BE3ABF}|ConsoleAppplication\\ConsoleAppplication.csproj|solutionrelative:consoleappplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\service\\enums\\groupmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|solutionrelative:service\\enums\\groupmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F323708D-5F70-4FA7-8344-CB7ED1BE3ABF}|ConsoleAppplication\\ConsoleAppplication.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\consoleappplication\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F323708D-5F70-4FA7-8344-CB7ED1BE3ABF}|ConsoleAppplication\\ConsoleAppplication.csproj|solutionrelative:consoleappplication\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\service\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|solutionrelative:service\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\repository\\exeptions\\notfoundexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|solutionrelative:repository\\exeptions\\notfoundexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\service\\services\\interface\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|solutionrelative:service\\services\\interface\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\repository\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +35,12 @@
       "RelativeMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6573032-A21D-43BC-A0DD-27F26978F372}|Domain\\Domain.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\domain\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6573032-A21D-43BC-A0DD-27F26978F372}|Domain\\Domain.csproj|solutionrelative:domain\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\repository\\exeptions\\notfoundexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|solutionrelative:repository\\exeptions\\notfoundexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\repository\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|solutionrelative:repository\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C6573032-A21D-43BC-A0DD-27F26978F372}|Domain\\Domain.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\domain\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6573032-A21D-43BC-A0DD-27F26978F372}|Domain\\Domain.csproj|solutionrelative:domain\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6573032-A21D-43BC-A0DD-27F26978F372}|Domain\\Domain.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,8 +51,16 @@
       "RelativeMoniker": "D:0:0:{C6573032-A21D-43BC-A0DD-27F26978F372}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F323708D-5F70-4FA7-8344-CB7ED1BE3ABF}|ConsoleAppplication\\ConsoleAppplication.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\consoleappplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F323708D-5F70-4FA7-8344-CB7ED1BE3ABF}|ConsoleAppplication\\ConsoleAppplication.csproj|solutionrelative:consoleappplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BF303698-6FD4-41F3-BFC4-4733BD6FD11C}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F323708D-5F70-4FA7-8344-CB7ED1BE3ABF}|ConsoleAppplication\\ConsoleAppplication.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\consoleappplication\\consoleappplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F323708D-5F70-4FA7-8344-CB7ED1BE3ABF}|ConsoleAppplication\\ConsoleAppplication.csproj|solutionrelative:consoleappplication\\consoleappplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|c:\\users\\abbas\\onedrive\\masa\u00FCst\u00FC\\zed\\consoleappplication\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A616ABAD-B2CD-421F-9080-C043FCF084E4}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,149 +70,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IGroupService.cs",
-              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Services\\Interface\\IGroupService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IGroupService.cs",
-              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Services\\Interface\\IGroupService.cs",
-              "RelativeToolTip": "Service\\Services\\Interface\\IGroupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\ConsoleAppplication\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "ConsoleAppplication\\Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\ConsoleAppplication\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "ConsoleAppplication\\Controllers\\GroupController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAmwH0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:38:43.212Z",
+              "WhenOpened": "2025-11-11T22:53:40.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GroupService.cs",
               "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Services\\GroupService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\GroupService.cs",
               "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Services\\GroupService.cs",
               "RelativeToolTip": "Service\\Services\\GroupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T22:33:34.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Service",
-              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Service.csproj",
-              "RelativeDocumentMoniker": "Service\\Service.csproj",
-              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Service.csproj",
-              "RelativeToolTip": "Service\\Service.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-11T22:32:31.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GroupMethod.cs",
-              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Enums\\GroupMethod.cs",
-              "RelativeDocumentMoniker": "Service\\Enums\\GroupMethod.cs",
-              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Enums\\GroupMethod.cs",
-              "RelativeToolTip": "Service\\Enums\\GroupMethod.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:31:26.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Repository",
-              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj",
-              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
-              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj",
-              "RelativeToolTip": "Repository\\Repository.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-11T22:15:30.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NotFoundExeption.cs",
-              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Exeptions\\NotFoundExeption.cs",
-              "RelativeDocumentMoniker": "Repository\\Exeptions\\NotFoundExeption.cs",
-              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Exeptions\\NotFoundExeption.cs",
-              "RelativeToolTip": "Repository\\Exeptions\\NotFoundExeption.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:07:58.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Repository\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Repository\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:07:31.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Repositories\\GroupRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repositories\\GroupRepository.cs",
               "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Repositories\\GroupRepository.cs",
               "RelativeToolTip": "Repository\\Repositories\\GroupRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowC4AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T22:06:06.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Repositories\\Interface\\IRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Repositories\\Interface\\IRepository.cs",
-              "RelativeToolTip": "Repository\\Repositories\\Interface\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\ConsoleAppplication\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\ConsoleAppplication\\Program.cs",
+              "RelativeToolTip": "ConsoleAppplication\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:04:54.179Z",
+              "WhenOpened": "2025-11-11T21:55:07.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Domain\\Models\\Group.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Group.cs",
-              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Domain\\Models\\Group.cs",
-              "RelativeToolTip": "Domain\\Models\\Group.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GroupMethod.cs",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Enums\\GroupMethod.cs",
+              "RelativeDocumentMoniker": "Service\\Enums\\GroupMethod.cs",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Enums\\GroupMethod.cs",
+              "RelativeToolTip": "Service\\Enums\\GroupMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:58:03.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Domain",
-              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj",
-              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj",
-              "RelativeToolTip": "Domain\\Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-11T21:57:36.991Z",
+              "WhenOpened": "2025-11-11T22:31:26.376Z",
               "EditorCaption": ""
             },
             {
@@ -222,16 +152,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\ConsoleAppplication\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleAppplication\\Program.cs",
-              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\ConsoleAppplication\\Program.cs",
-              "RelativeToolTip": "ConsoleAppplication\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Domain\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Domain\\Models\\Group.cs",
+              "RelativeToolTip": "Domain\\Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:55:07.956Z",
+              "WhenOpened": "2025-11-11T21:58:03.878Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Repository\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:07:31.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Repositories\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Repositories\\Interface\\IRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\Interface\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:04:54.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Services\\Interface\\IGroupService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Interface\\IGroupService.cs",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Services\\Interface\\IGroupService.cs",
+              "RelativeToolTip": "Service\\Services\\Interface\\IGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:38:43.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotFoundExeption.cs",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Exeptions\\NotFoundExeption.cs",
+              "RelativeDocumentMoniker": "Repository\\Exeptions\\NotFoundExeption.cs",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Exeptions\\NotFoundExeption.cs",
+              "RelativeToolTip": "Repository\\Exeptions\\NotFoundExeption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:07:58.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T21:57:36.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Service.csproj",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Service.csproj",
+              "RelativeDocumentMoniker": "Service\\Service.csproj",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Service\\Service.csproj",
+              "RelativeToolTip": "Service\\Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T22:32:31.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConsoleAppplication",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\ConsoleAppplication\\ConsoleAppplication.csproj",
+              "RelativeDocumentMoniker": "ConsoleAppplication\\ConsoleAppplication.csproj",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\ConsoleAppplication\\ConsoleAppplication.csproj",
+              "RelativeToolTip": "ConsoleAppplication\\ConsoleAppplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T22:58:31.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Repository.csproj",
+              "DocumentMoniker": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
+              "ToolTip": "C:\\Users\\Abbas\\OneDrive\\Masa\u00FCst\u00FC\\ZED\\ConsoleAppplication\\Repository\\Repository.csproj",
+              "RelativeToolTip": "Repository\\Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T22:15:30.614Z"
             }
           ]
         }

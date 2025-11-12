@@ -12,6 +12,7 @@ namespace Service.Services.Interface
         Group Create(Group data);
         Group Update(int id, Group data);
         void Delete(int id);
+        Group GetById(int id);
 
     }
 }

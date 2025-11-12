@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Service.Enums
 {
-    public enum LibraryMethod
+    public enum GroupMethod
     {
         Create = 1,
         Update = 2,
-        Delete = 3
+        Delete = 3,
+        GetById = 4
     }
 }

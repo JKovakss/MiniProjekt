@@ -1,14 +1,16 @@
-﻿using Domain.Models;
+﻿using Service.Services;
+using Domain.Models;
 using Repository.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Service.Services.Interface;
 
 namespace Service.Services
 {
-    public class GroupService
+    public class GroupService : IGroupService
     {
         private GroupRepository _groupRepository;
         public int count;
@@ -38,6 +40,12 @@ namespace Service.Services
             Group existData = _groupRepository.Get(m => m.Id == id);
             //existData.Id = id;
             _groupRepository.Update(id, group);
+            return existData;
+        }
+
+        public Group GetById(int id)
+        {
+            Group existData = _groupRepository.Get(m => m.Id == id);
             return existData;
         }
     }
